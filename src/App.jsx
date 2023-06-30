@@ -9,7 +9,7 @@ function App(){
 
     <div>
     <Message />
-    <img src = "./images/Lambo.jpg" alt = "Lambo"/>
+    <img className = "bigIMG" src = "./images/Lambo.jpg" alt = "Lambo"/>
     <ListGroup />
     <img src = "./images/c2.jpg" alt = "Lambo2"/>  
     </div>)
