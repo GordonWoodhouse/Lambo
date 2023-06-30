@@ -1,5 +1,7 @@
 import ListGroup from "./components/ListGroup";
 import Message from "./components/Message";
+import lambo1 from "./components/images/Lambo.jpg" ;
+import lambo2 from "./components/images/C2.jpg"
 
 
 function App(){
@@ -7,9 +9,9 @@ function App(){
 
     <div>
     <Message />
-    <img src = "components/images/Lambo.jpg" alt = "Lambo"/>
+    <img src = {lambo1} alt = "Lambo"/>
     <ListGroup />
-    <img src = "components/images/C1.jpg" alt = "Lambo2"/>  
+    <img src = {lambo2} alt = "Lambo2"/>  
     </div>)
 }
 
