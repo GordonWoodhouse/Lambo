@@ -1,13 +1,15 @@
 import ListGroup from "./components/ListGroup";
 import Message from "./components/Message";
-import Form from "./components/FormExample";
+
 
 function App(){
   return(
+
     <div>
-    <ListGroup />
     <Message />
-    <Form />
+    <img src = "components/images/Lambo.jpg" alt = "Lambo"/>
+    <ListGroup />
+    <img src = "components/images/C1.jpg" alt = "Lambo2"/>  
     </div>)
 }
 
